@@ -11,6 +11,22 @@
 # generated files
 bin/
 gen/
+.gradle/
+**/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+atlassian-ide-plugin.xml
+
+#Maven
+target
+release.properties
+pom.xml.*
